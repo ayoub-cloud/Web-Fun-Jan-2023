@@ -1,0 +1,55 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    background-color: AliceBlue;
+    
+}
+
+h1{
+    font-family:sans-serif;
+    font-size:60px;
+    color:slategray;
+    margin:20px;
+    text-align:center;
+    
+}
+
+img{
+    height:300px;
+}
+
+.women{
+    background-color:Orange;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    padding:20px;
+    margin:40px;
+}
+
+.dark{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    background-color: white;
+    padding:20px;
+    margin:40px;
+}
+
+.character{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    padding:20px;
+    margin:40px;
+    background-color: darkred;
+}
+
+footer{
+    font-family:arial;
+    font-size:35px;
+    color:slategray;
+    text-align:center;
+    margin:40px;
+}
