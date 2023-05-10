@@ -1,0 +1,91 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.top {
+    background-color: #a3ccf0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+
+input {
+    width: 250px;
+    padding:3px;
+}
+
+.top button {
+    background-color: #2b78e4;
+    color: white;
+    padding: 8px;
+    box-shadow: 3px 3px black;
+    width: 80px;
+}
+.container {
+    display: flex;
+    align-items: top;
+}
+
+.left {
+    flex: 2;
+}
+
+.right {
+    flex: 1;
+}
+
+.left-container {
+    border: black 2px solid;
+    padding: 10px;
+    margin: 20px 20px 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right-container {
+    border: black 2px solid;
+    padding: 10px;
+    margin-top: 20px;
+    height: 120px;
+    text-align: center;
+}
+
+.left-container div {
+    text-align: center;
+    flex: 1;
+    height: 150px;
+    margin-right: 20px;
+    margin-top:5px;
+}
+
+.definition {
+    flex: 2;
+    text-align: left;
+}
+
+#like1,
+#like2 {
+    margin-top: 20px;
+    width: 80px;
+    padding: 5px;
+    background-color: #f1c72e;
+    box-shadow: 3px 3px black;
+}
+
+.right-container p {
+    font-size: 18px;
+}
+
+#addDefinition {
+    background-color: #04af0d;
+    width: 160px;
+    margin: 15px 20px;
+    padding: 5px;
+    box-shadow: 3px 3px rgb(0, 0, 0);
+    font-size: 18px;
+}
